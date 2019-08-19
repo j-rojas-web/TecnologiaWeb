@@ -1,0 +1,54 @@
+.cabecera {
+    width: 770px;
+    position: relative;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+    background: #233C9B url("Imagenes/cabecera.jpg") no-repeat;
+    color: #FFF;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    background: rgb(168, 40, 40) repeat-x;
+    color: #192666;
+  }
+  .menu {
+    background: #192666;
+    margin: 0 5px;
+    padding: 10px 0 0 0;
+  }
+  
+  .menu ul {
+    margin: 0 10px;
+    padding: 0;
+    list-style:none;
+  }
+  
+  .menu ul li {
+    margin: 0 5px 0 0;
+    padding: 0;
+    float:left;
+  }
+  
+  .menu ul li a {
+    display: block;
+    position: relative;
+    padding: 5px 15px;
+    border: 0;
+    background: #253575;
+    color: #B5C4E3;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .menu ul li a:hover {
+    background: #31479B;
+  }
+  
+  .menu ul li a {
+    background: #FFF;
+    color: #FF9000;
+  }
+  

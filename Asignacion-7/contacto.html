@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="/Asignacion/Asignacion-7/contacto.css">
+    <title>Asignacion 7</title>
+</head>
+
+<body>
+    <form action="" method="GET" align="center">
+        <fieldset>
+            <legend align="center">Contacto</legend>
+            <label for="nombreCompleto">nombre completo:</label>
+            <input type="text" id="nombreCompleto" pattern="[A-Az-z].{5,}" required><br>
+            <label for="email">correo:</label>
+            <input type="email" name="email" id="email" placeholder="xxxxx@hotmail.com"><br> 
+            <label for="telefono">Telefono:</label>
+            <input type="tel" id="telefono" placeholder="  ### - ### - ####" required><br>
+            <label for="codigo">Codigo Postal:</label>
+            <input type="number" id="codigo" required><br> 
+            <label for="fecha">Fecha actual:</label>
+            <input type="date" id="fecha"><br>
+
+            <label for="tipoUser">Tipo de Usuario:</label>
+            <select name="tipoUser" id="tipoUser">
+                <option value="">seleccione lugar:</option>
+                <option value="Extranjero">Extranjero:</option>
+                <option value="Nacional">Nacional:</option>
+            </select><br>
+            <label for="coment">Comentario:</label><br>
+            <textarea name="coment" id="coment" cols="25" rows="6"></textarea><br>
+            <input type="submit" id="coment">
+        </fieldset>
+    </form>
+</body>
+
+</html>

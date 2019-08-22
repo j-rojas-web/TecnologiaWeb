@@ -1,0 +1,160 @@
+body {
+  background: #f5ecec;
+}
+
+.cabecera {
+  display: grid;
+  grid-template-rows: 1fr 5fr 1fr 5fr;
+  grid-template-columns: 1fr 2fr 2fr 1fr;
+  background-image: url(..//img/fondo-banner.jpg);
+}
+
+.navegacion {
+  grid-column-start: 3;
+
+  border: 1em;
+  background: #980a19;
+  width: 100%;
+}
+.menu {
+  display: flex;
+  justify-content: flex-end;
+  justify-content: space-between;
+}
+.menu li a {
+  text-decoration: none;
+}
+.der {
+  grid-row-start: 3;
+  grid-column-start: 1;
+}
+.izq {
+  grid-row-start: 3;
+  grid-column-start: 4;
+}
+
+.info {
+  display: grid;
+  grid-template: 2fr 3fr 3fr 1fr / 1fr 3fr 3fr 3fr 1fr;
+}
+.infoTitulo {
+  grid-column-start: 3;
+}
+.exp {
+  grid-column-start: 2;
+  grid-row-start: 2;
+  padding: 1em;
+}
+.calidad {
+  grid-column-start: 3;
+  grid-row-start: 2;
+  padding: 1em;
+}
+.lugares {
+  grid-column-start: 4;
+  grid-row-start: 2;
+  padding: 1em;
+}
+.medida {
+  grid-column-start: 2;
+  grid-row-start: 3;
+  padding: 1em;
+}
+.responsables {
+  grid-column-start: 3;
+  grid-row-start: 3;
+  padding: 1em;
+}
+.innovacion {
+  grid-column-start: 4;
+  grid-row-start: 3;
+  padding: 1em;
+}
+
+.lugaresFav {
+  display: grid;
+  grid-template: 100px 2fr 2fr 1fr / 1.5fr 4fr 4fr 1.5fr;
+  background-image: url(..//img/fondo-lugares.jpg);
+}
+.lugfavtitulo {
+  grid-area: 1 / 2 / span 1 / span 2;
+}
+
+.cañon {
+  grid-area: 2 / 2 / span 2 / span 1;
+}
+.vinos {
+  grid-area: 2 / 3 / span 2 / span 1;
+}
+.img {
+  height: 200px;
+  width: 93%;
+  padding: 1em;
+}
+.favcontenido {
+  padding: 1em;
+  padding-top: 0em;
+}
+.center {
+  margin-left: 45%;
+}
+
+.suscribete {
+  display: grid;
+
+  grid-template: 1fr 1fr 1fr 1fr 1fr / 1fr 4fr 4fr 1fr;
+}
+.sustitulo {
+  grid-area: 1 / 2 / 1 / span 2;
+}
+.name {
+  grid-area: 2 / 2 / span 1 / span 1;
+  padding: 1.5em;
+  margin: 1em;
+}
+.email {
+  grid-area: 2 / 3 / span 1 / span 1;
+  padding: 1.5em;
+  margin: 1em;
+}
+.ciudad {
+  grid-area: 3 / 2 / span 1 / span 2;
+  padding: 1.5em;
+  margin: 1em;
+}
+.btnsus {
+  grid-row-start: 4;
+  grid-column-start: 2;
+  padding: 1.5em;
+  margin: 1em;
+  width: 30%;
+}
+
+.grid-footer {
+  background: #6f0000;
+  display: grid;
+  grid-template: 2fr 2fr / 0.5fr 2fr 2fr 2fr 0.5fr;
+}
+.quienes {
+  background: #ffffff;
+  opacity: 0.1;
+  grid-area: 1 / 2 / span 2 / span 1;
+  margin: 10px;
+  padding: 1em;
+}
+
+
+.misionvision {
+  background: #ffffff;
+  opacity: 0.5;
+  margin: 10px;
+  grid-area: 1 / 3 / span 2 / span 1;
+  padding: 1em;
+}
+.contacto {
+  background: #ffffff;
+  opacity: 0.5;
+  margin: 10px;
+  grid-area: 1 / 4 / span 2 / span 1;
+  padding: 1em;
+}

@@ -1,41 +1,38 @@
 {
-    "squadName" : "Escuadron de Super Heroes",
-    "homeTown" : "Cochabamba",
-    "formed" : 2019,
-    "secretBase" : "Super tower",
-    "active" : true,
-    "members" : [
-      {
-        "name" : "Mole-Man",
-        "age" : 29,
-        "secretIdentity" : "Dan Jukes",
-        "powers" : [
-          "Radiation resistance",
-          "Turnikong tiny",
-          "Radiation blast"
-        ]
-      },
-      {
-        "name" : "Mad-Damage",
-        "age" : 39,
-        "secretIdentity" : "Jane Wilson",
-        "powers" : [
-          "Million tonne punch",
-          "Damage resistance",
-          "Superhuman reflexes"
-        ]
-      },
-      {
-        "name" : "Flama Eterna",
-        "age" : 1000000,
-        "secretIdentity" : "Unknown",
-        "powers" : [
-          "Immortality",
-          "Heat Immunity",
-          "Inferno",
-          "Teleportation",
-          "Interdimensional travel"
-        ]
-      }
-    ]
-  }
+ "titulo":"Detalle",
+  "detalle" : "Usted disfrutará de un paseo por los viñedos más altos del mundo, entre 1.700 y 2.850 m.s.n.m., en medio de la belleza natural del área productora mientras degusta de los mejores vinos y Singanis Tarijeños, acompañados de jamones, quesos, panecillos y otros.",
+  "lugares":[
+    { 
+      "horaInicio" : "hora inicio",
+      "detallehora" : "8:30 am.",
+      "duracion" : "Duracion",
+      "detalleDuracion" : "Ropa cómoda (preferentemente algodón) y zapatos cómodos, sombrero, protector solar y lentes de sol.",
+      "queLlevar" : "Que Llevar",
+      "detalleQueLlevar" : "Ropa cómoda (preferentemente algodón) y zapatos cómodos, sombrero, protector solar y lentes de sol.",
+      "nota" : "Nota",
+      "detalleNota" : "El tiempo de duración de este paseo es flexible. El precio no aplica durante Carnavales, Semana Santa o fiestas de Fin de Año"
+    },
+
+    { 
+      "horaInicio" : "hora inicio",
+      "detallehora" : "10:30 am.",
+      "duracion" : "Duracion",
+      "detalleDuracion" : "Ropa cómoda (preferentemente algodón) y zapatos cómodos, sombrero, protector solar y lentes de sol.",
+      "queLlevar" : "Que Llevar",
+      "detalleQueLlevar" : "Ropa cómoda (preferentemente algodón) y zapatos cómodos, sombrero, protector solar y lentes de sol.",
+      "nota" : "Nota",
+      "detalleNota" : "El tiempo de duración de este paseo es flexible. El precio no aplica durante Carnavales, Semana Santa o fiestas de Fin de Año"
+    },
+
+    { 
+      "horaInicio" : "hora inicio",
+      "detallehora" : "09:30 am.",
+      "duracion" : "Duracion",
+      "detalleDuracion" : "Ropa cómoda (preferentemente algodón) y zapatos cómodos, sombrero, protector solar y lentes de sol.",
+      "queLlevar" : "Que Llevar",
+      "detalleQueLlevar" : "Ropa cómoda (preferentemente algodón) y zapatos cómodos, sombrero, protector solar y lentes de sol.",
+      "nota" : "Nota",
+      "detalleNota" : "El tiempo de duración de este paseo es flexible. El precio no aplica durante Carnavales, Semana Santa o fiestas de Fin de Año"
+    }
+  ]
+}

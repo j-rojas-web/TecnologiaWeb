@@ -1,0 +1,41 @@
+{
+    "squadName" : "Escuadron de Super Heroes",
+    "homeTown" : "Cochabamba",
+    "formed" : 2019,
+    "secretBase" : "Super tower",
+    "active" : true,
+    "members" : [
+      {
+        "name" : "Mole-Man",
+        "age" : 29,
+        "secretIdentity" : "Dan Jukes",
+        "powers" : [
+          "Radiation resistance",
+          "Turning tiny",
+          "Radiation blast"
+        ]
+      },
+      {
+        "name" : "Mad-Damage",
+        "age" : 39,
+        "secretIdentity" : "Jane Wilson",
+        "powers" : [
+          "Million tonne punch",
+          "Damage resistance",
+          "Superhuman reflexes"
+        ]
+      },
+      {
+        "name" : "Flama Eterna",
+        "age" : 1000000,
+        "secretIdentity" : "Unknown",
+        "powers" : [
+          "Immortality",
+          "Heat Immunity",
+          "Inferno",
+          "Teleportation",
+          "Interdimensional travel"
+        ]
+      }
+    ]
+  }

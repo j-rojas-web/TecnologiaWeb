@@ -208,6 +208,7 @@ margin-right: 50px;
      }
 .info{
 
+    margin-top: 50px;
     display: grid;
     grid-template: 1fr 3fr 3fr 3fr 1fr / 1fr 3fr 3fr 1fr;
 

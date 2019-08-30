@@ -1,435 +1,325 @@
-body{
-    background: #F5ECEC;
+body {
+  background: #f5ecec;
 }
-.cabecera{
-    display: grid;
-    grid-template-rows: 1fr 5fr 1fr 5fr;
-    grid-template-columns: 1fr 2fr 2fr 1fr;
-    background-image: url("../img/FondoHeader_2.jpg");
-  
-    
-}
-
-.navegacion{
-
-   grid-column: 1 /span 4;
-   border: 1em;
-   background: #980A19;
-   
-}
-.menu{
-
-    display: flex;
-    justify-content: flex-end;
-    
-}
-.space{
-margin-right: 50px;
-  
-}
-
-.der{
-   grid-row-start: 3;
-   grid-column-start: 1;
-   
-}
-.izq{
-
-    grid-row-start: 3;
-    grid-column-start: 4;
-   
-}
-
-
-
-.info{
-
-    display: grid;
-    grid-template: 2fr 3fr 3fr 1fr / 1fr 3fr 3fr 3fr 1fr;
-
-}
-.infoTitulo{
-
-    grid-column-start: 3;
-    
-}
-.exp{
-
-    grid-column-start: 2;
-    grid-row-start:2 ;
-    padding: 1em;
-}
-.calidad{
-    grid-column-start: 3;
-    grid-row-start:2 ;
-    padding: 1em;
-}
-.lugares{
-    grid-column-start: 4;
-    grid-row-start:2 ;
-    padding: 1em;
-}
-.medida{
-    grid-column-start: 2;
-    grid-row-start:3 ;
-    padding: 1em;
-}
-.responsables{
-    grid-column-start: 3;
-    grid-row-start:3 ;
-    padding: 1em;
-}
-.innovacion{
-    grid-column-start: 4;
-    grid-row-start:3 ;
-    padding: 1em;
-}
-
-
-
-.lugaresFav{
-
-    display: grid;
-
-    grid-template: 100px 2fr 2fr 1fr  / 1.5fr 4fr 4fr 1.5fr ;
-
-    background-image: url("../img/fondo-Lugares.jpg");
-    background-size: 100%;
-}
-.lugfavtitulo{
-
-    grid-area: 1 / 2 / span 1 / span 2;
-   
-       
-}
-
-.cañon{
-
-    grid-area: 2 / 2 / span 2 / span 1;
-    background: rgba(255, 255, 255, .6);
-
-}
-.vinos{
-
-    grid-area: 2 / 3 / span 2 / span 1;
-    background: rgba(255, 255, 255, .6);
-    margin-left: 10px;
-
-   
-  
-}
-.img{
-
-    height: 60%;
-    width: 100%;
-  
-}
-.favcontenido{
-
-    padding: 1em;
-    padding-top: 0em;
-}
-.center{
-   margin-left: 45%;
-}
-
-.suscribete{ 
-
-    display: grid;
-
-    grid-template: 1fr 1fr 1fr 1fr 1fr / 1fr 4fr 4fr 1fr ;
-  
-}
-.sustitulo{
-
-    grid-area: 1 / 2 / 1 / span 2;    
-}
-.name{
-
-    grid-area: 2 / 2 / span 1 / span 1;
-    padding: 1.5em;
-    margin: 1em;
-}
-.email{
-
-    grid-area: 2 / 3 / span 1 / span 1;
-    padding: 1.5em;
-    margin: 1em;
-}
-.ciudad{
-
-    grid-area: 3 / 2 / span 1 / span 2;
-    padding: 1.5em;
-    margin: 1em;
-}
-.btnsus{
-
-    grid-row-start: 4; 
-    grid-column-start: 2;
-    padding: 1.5em;
-    margin: 1em;
-    width: 30%;
-    
-}
-
-.footer{
-
+.cabecera {
   display: grid;
-  
-  grid-template: 2fr 2fr / 0.5fr 2fr 2fr 2fr 0.5fr;
-
+  grid-template-rows: 1fr 5fr 1fr 5fr;
+  grid-template-columns: 1fr 2fr 2fr 1fr;
+  background-image: url("../img/FondoHeader_2.jpg");
 }
-.quienes{
 
-    grid-area: 1 / 2 / span 2 / span 1;
-   
-    padding: 1em;
+.navegacion {
+  grid-column: 1 / span 4;
+  border: 1em;
+  background: radial-gradient(#980a19, #6b0000);
 }
-.misionvision{
+.menu {
+  display: flex;
+  justify-content: flex-end;
+}
+.space {
+  margin-right: 50px;
+}
 
-    grid-area: 1 / 3 / span 2 / span 1;
+.der {
+  grid-row-start: 3;
+  grid-column-start: 1;
+}
+.izq {
+  grid-row-start: 3;
+  grid-column-start: 4;
+}
+
+.info {
+  display: grid;
+  grid-template: 2fr 3fr 3fr 1fr / 1fr 3fr 3fr 3fr 1fr;
+}
+.infoTitulo {
+  grid-column-start: 3;
+}
+.exp {
+  grid-column-start: 2;
+  grid-row-start: 2;
   padding: 1em;
 }
-.contacto{
+.calidad {
+  grid-column-start: 3;
+  grid-row-start: 2;
+  padding: 1em;
+}
+.lugares {
+  grid-column-start: 4;
+  grid-row-start: 2;
+  padding: 1em;
+}
+.medida {
+  grid-column-start: 2;
+  grid-row-start: 3;
+  padding: 1em;
+}
+.responsables {
+  grid-column-start: 3;
+  grid-row-start: 3;
+  padding: 1em;
+}
+.innovacion {
+  grid-column-start: 4;
+  grid-row-start: 3;
+  padding: 1em;
+}
 
-    grid-area: 1 / 4 / span 2 / span 1;
-   padding: 1em;
+.lugaresFav {
+  display: grid;
+
+  grid-template: 100px 2fr 2fr 1fr / 1.5fr 4fr 4fr 1.5fr;
+
+  background-image: url("../img/fondo-Lugares.jpg");
+  background-size: 100%;
+}
+.lugfavtitulo {
+  grid-area: 1 / 2 / span 1 / span 2;
+}
+
+.cañon {
+  grid-area: 2 / 2 / span 2 / span 1;
+  background: rgba(255, 255, 255, 0.6);
+}
+.vinos {
+  grid-area: 2 / 3 / span 2 / span 1;
+  background: rgba(255, 255, 255, 0.6);
+  margin-left: 10px;
+}
+.img {
+  height: 60%;
+  width: 100%;
+}
+.favcontenido {
+  padding: 1em;
+  padding-top: 0em;
+}
+.center {
+  margin-left: 45%;
+}
+
+.suscribete {
+  display: grid;
+
+  grid-template: 1fr 1fr 1fr 1fr 1fr / 1fr 4fr 4fr 1fr;
+
+  background-image: url("../img/Fondo-Suscribete.jpg");
+  background-size: 100%;
+  margin-top: 200px;
+}
+.sustitulo {
+  grid-area: 1 / 2 / 1 / span 2;
+}
+.name {
+  grid-area: 2 / 2 / span 1 / span 1;
+  padding: 1.5em;
+  margin: 1em;
+}
+.email {
+  grid-area: 2 / 3 / span 1 / span 1;
+  padding: 1.5em;
+  margin: 1em;
+}
+.ciudad {
+  grid-area: 3 / 2 / span 1 / span 2;
+  padding: 1.5em;
+  margin: 1em;
+}
+.btnsus {
+  grid-row-start: 4;
+  grid-column-start: 2;
+  padding: 1.5em;
+  margin: 1em;
+  width: 30%;
+}
+
+.footer {
+    background: radial-gradient(#980a19, #6b0000);
+  display: grid;
+  grid-template: 2fr 2fr / 0.5fr 2fr 2fr 2fr 0.5fr;
+}
+.quienes {
+  background: rgba(255, 255, 255, 0.05);
+  margin: 10px;
+  color: #707070;
+  grid-area: 1 / 2 / span 2 / span 1;
+  padding: 1em;
+}
+.misionvision {
+  background: rgba(255, 255, 255, 0.05);
+  color: #707070;
+  margin: 10px;
+
+  grid-area: 1 / 3 / span 2 / span 1;
+  padding: 1em;
+}
+.contacto {
+  background: rgba(255, 255, 255, 0.05);
+  margin: 10px;
+  color: #707070;
+  grid-area: 1 / 4 / span 2 / span 1;
+  padding: 1em;
+}
+footer h2{
+    color: white;
 }
 
 /*-----------------------------------vista grande----------------------------------------------------------*/
 
-@media screen and (max-width : 1100px) and (min-width : 500px){
-
-    .navegacion{
-
-        grid-column: 2 /span 2;
-        border: 1em;
-        
-     }
-.info{
-
-    margin-top: 50px;
+@media screen and (max-width: 1100px) and (min-width: 500px) {
+  .navegacion {
+    grid-column: 2 / span 2;
+    border: 1em;
+  }
+  .info {
+    margin-top: 100px;
     display: grid;
     grid-template: 1fr 3fr 3fr 3fr 1fr / 1fr 3fr 3fr 1fr;
+  }
 
-} 
-
-.infoTitulo{
-
+  .infoTitulo {
     grid-column-start: 2;
     grid-column-end: 4;
     margin-left: 25%;
-   
-    
-}
-.exp{
-
+  }
+  .exp {
     grid-column-start: 2;
-    grid-row-start:2 ;
+    grid-row-start: 2;
     padding: 1em;
-}
-.calidad{
+  }
+  .calidad {
     grid-column-start: 3;
-    grid-row-start:2 ;
+    grid-row-start: 2;
     padding: 1em;
-}
-.lugares{
+  }
+  .lugares {
     grid-column-start: 2;
-    grid-row-start:3 ;
+    grid-row-start: 3;
     padding: 1em;
-}
-.medida{
+  }
+  .medida {
     grid-column-start: 3;
-    grid-row-start:3 ;
+    grid-row-start: 3;
     padding: 1em;
-}
-.responsables{
+  }
+  .responsables {
     grid-column-start: 2;
-    grid-row-start:4 ;
+    grid-row-start: 4;
     padding: 1em;
-}
-.innovacion{
+  }
+  .innovacion {
     grid-column-start: 3;
-    grid-row-start:4 ;
+    grid-row-start: 4;
     padding: 1em;
+  }
 }
-
-
-
-
-}
-
-
-
-
-
-
-
-
-
 
 /*--------------------------vista pequeña----------------------------------------------*/
 
+@media screen and (max-width: 699px) {
+  .info {
+    display: grid;
+    grid-template: 1fr 2.5fr 2.5fr 2.5fr 2.5fr 2.5fr 2.5fr 1fr / 0.1fr 3fr 0.1fr;
+  }
 
-@media screen and (max-width : 699px){
-
-
-
-    .info{
-
-        display: grid;
-        grid-template: 1fr 2.5fr 2.5fr 2.5fr 2.5fr 2.5fr 2.5fr 1fr / 0.1fr 3fr 0.1fr;
-    
-    } 
-
-    
-.infoTitulo{
-
+  .infoTitulo {
     grid-column-start: 2;
-   grid-column-end: 3;
-  margin-left: 0%;
-    
-}
-.exp{
-
+    grid-column-end: 3;
+    margin-left: 0%;
+  }
+  .exp {
     grid-column-start: 2;
-    grid-row-start:2 ;
-    
-}
-.calidad{
+    grid-row-start: 2;
+  }
+  .calidad {
     grid-column-start: 2;
-    grid-row-start:3 ;
-    
-}
-.lugares{
+    grid-row-start: 3;
+  }
+  .lugares {
     grid-column-start: 2;
-    grid-row-start:4 ;
-  
-}
-.medida{
+    grid-row-start: 4;
+  }
+  .medida {
     grid-column-start: 2;
-    grid-row-start:5 ;
-  
-}
-.responsables{
+    grid-row-start: 5;
+  }
+  .responsables {
     grid-column-start: 2;
-    grid-row-start:6 ;
-    
-}
-.innovacion{
-    grid-column-start: 2 ;
-    grid-row-start:7 ;
-    
-}
+    grid-row-start: 6;
+  }
+  .innovacion {
+    grid-column-start: 2;
+    grid-row-start: 7;
+  }
 
-
-
-
-
-
-.lugaresFav{
-
+  .lugaresFav {
     display: grid;
 
-    grid-template: 100px 2fr 2fr 30px  / 0.1fr 8fr 0.1fr ;
-
-}
-.lugfavtitulo{
-
+    grid-template: 100px 2fr 2fr 30px / 0.1fr 8fr 0.1fr;
+  }
+  .lugfavtitulo {
     grid-area: 1 / 2 / span 1 / span 1;
-   
-       
-}
+  }
 
-.cañon{
-
+  .cañon {
     grid-area: 2 / 2 / span 1 / span 1;
-   
-
-}
-.vinos{
-
+  }
+  .vinos {
     grid-area: 3 / 2 / span 1 / span 1;
-   
-  
-}
 
+    margin-left: 0px;
+    margin-top: 10px;
+  }
 
-
-
-
-
-
-
-.suscribete{ 
-
+  .suscribete {
     display: grid;
-
-    grid-template: 1fr 1fr 1fr 1fr 1fr / 0.1fr 8fr 0.1fr ;
-  
-}
-.sustitulo{
-
-    grid-area: 1 / 2 / 1 / span 1;    
-}
-.name{
-
+    grid-template: 1fr 1fr 1fr 1fr 1fr / 0.1fr 8fr 0.1fr;
+  }
+  .sustitulo {
+    grid-area: 1 / 2 / 1 / span 1;
+  }
+  .name {
     grid-area: 2 / 2 / span 1 / span 1;
     padding: 1.5em;
     margin: 1em;
-}
-.email{
-
+  }
+  .email {
     grid-area: 3 / 2 / span 1 / span 1;
     padding: 1.5em;
     margin: 1em;
-}
-.ciudad{
-
+  }
+  .ciudad {
     grid-area: 4 / 2 / span 1 / span 1;
     padding: 1.5em;
     margin: 1em;
-}
-.btnsus{
-
-    grid-row-start: 5; 
+  }
+  .btnsus {
+    grid-row-start: 5;
     grid-column-start: 2;
     padding: 1.5em;
     margin: 1em;
     width: 30%;
-    
-}
+  }
 
-
-
-
-
-
-
-
-.footer{
-
+  .footer {
     display: grid;
-    
-    grid-template: 2fr 2fr 2fr / 0.1fr 2fr  0.1fr;
-  
+
+    grid-template: 2fr 2fr 2fr / 0.1fr 2fr 0.1fr;
   }
-  .quienes{
-  
-      grid-area: 1 / 2 / span 1 / span 1;
-     
-      padding: 0em;
-  }
-  .misionvision{
-  
-      grid-area: 2 / 2 / span 1 / span 1;
+  .quienes {
+    grid-area: 1 / 2 / span 1 / span 1;
+
     padding: 0em;
   }
-  .contacto{
-  
-      grid-area: 3 / 2 / span 1 / span 1;
-     padding: 0em;
+  .misionvision {
+    grid-area: 2 / 2 / span 1 / span 1;
+    padding: 0em;
   }
-
+  .contacto {
+    grid-area: 3 / 2 / span 1 / span 1;
+    padding: 0em;
+  }
 }
-

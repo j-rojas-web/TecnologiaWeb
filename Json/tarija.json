@@ -1,38 +1,34 @@
 {
- "titulo":"Detalle",
+ "titulo":"Opcion 1",
+ "titulo2":"Opcion 2",
+ "titulo3":"Opcion 3",
   "detalle" : "Usted disfrutará de un paseo por los viñedos más altos del mundo, entre 1.700 y 2.850 m.s.n.m., en medio de la belleza natural del área productora mientras degusta de los mejores vinos y Singanis Tarijeños, acompañados de jamones, quesos, panecillos y otros.",
   "lugares":[
     { 
-      "horaInicio" : "hora inicio",
-      "detallehora" : "8:30 am.",
-      "duracion" : "Duracion",
-      "detalleDuracion" : "Ropa cómoda (preferentemente algodón) y zapatos cómodos, sombrero, protector solar y lentes de sol.",
-      "queLlevar" : "Que Llevar",
-      "detalleQueLlevar" : "Ropa cómoda (preferentemente algodón) y zapatos cómodos, sombrero, protector solar y lentes de sol.",
-      "nota" : "Nota",
-      "detalleNota" : "El tiempo de duración de este paseo es flexible. El precio no aplica durante Carnavales, Semana Santa o fiestas de Fin de Año"
+
+       "tittle":["hora inicio","Duracion","Que Llevar","Nota"],
+       "details":[ "8:30 am.",
+        "Ropa cómoda (preferentemente algodón) y zapatos cómodos, sombrero, protector solar y lentes de sol.",
+        "Ropa cómoda (preferentemente algodón) y zapatos cómodos, sombrero, protector solar y lentes de sol.",
+       "El tiempo de duración de este paseo es flexible. El precio no aplica durante Carnavales, Semana Santa o fiestas de Fin de Año"]
+    
+    
     },
 
     { 
-      "horaInicio" : "hora inicio",
-      "detallehora" : "10:30 am.",
-      "duracion" : "Duracion",
-      "detalleDuracion" : "Ropa cómoda (preferentemente algodón) y zapatos cómodos, sombrero, protector solar y lentes de sol.",
-      "queLlevar" : "Que Llevar",
-      "detalleQueLlevar" : "Ropa cómoda (preferentemente algodón) y zapatos cómodos, sombrero, protector solar y lentes de sol.",
-      "nota" : "Nota",
-      "detalleNota" : "El tiempo de duración de este paseo es flexible. El precio no aplica durante Carnavales, Semana Santa o fiestas de Fin de Año"
+      "tittle":["hora inicio","Duracion","Que Llevar","Nota"],
+      "details":[ "10:30 am.",
+       "Ropa cómoda (preferentemente algodón) y zapatos cómodos, sombrero, protector solar y lentes de sol.",
+       "Ropa cómoda (preferentemente algodón) y zapatos cómodos, sombrero, protector solar y lentes de sol.",
+      "El tiempo de duración de este paseo es flexible. El precio no aplica durante Carnavales, Semana Santa o fiestas de Fin de Año"]
     },
 
     { 
-      "horaInicio" : "hora inicio",
-      "detallehora" : "09:30 am.",
-      "duracion" : "Duracion",
-      "detalleDuracion" : "Ropa cómoda (preferentemente algodón) y zapatos cómodos, sombrero, protector solar y lentes de sol.",
-      "queLlevar" : "Que Llevar",
-      "detalleQueLlevar" : "Ropa cómoda (preferentemente algodón) y zapatos cómodos, sombrero, protector solar y lentes de sol.",
-      "nota" : "Nota",
-      "detalleNota" : "El tiempo de duración de este paseo es flexible. El precio no aplica durante Carnavales, Semana Santa o fiestas de Fin de Año"
+      "tittle":["hora inicio","Duracion","Que Llevar","Nota"],
+      "details":[ "11:30 am.",
+       "Ropa cómoda (preferentemente algodón) y zapatos cómodos, sombrero, protector solar y lentes de sol.",
+       "Ropa cómoda (preferentemente algodón) y zapatos cómodos, sombrero, protector solar y lentes de sol.",
+      "El tiempo de duración de este paseo es flexible. El precio no aplica durante Carnavales, Semana Santa o fiestas de Fin de Año"]
     }
   ]
 }

@@ -34,8 +34,7 @@ header{
 }
 
 .logo{
-    text-decoration: none;
-    color: black;
+    border-radius: 50%;
     padding-left: 80px;
 }
 .tab-nav{

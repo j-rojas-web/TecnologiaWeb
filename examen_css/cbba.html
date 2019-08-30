@@ -136,11 +136,34 @@
         </div>
       </main>
 
-      <footer>
+      <footer >
         &copy;2019 Conoce Bolivia | Atributions |Faviola Arellano <br />
-        <script src="js/currentdate.js"></script>
-        <script src="js/hamburger.js"></script>
-        <script src="js/cbbainfo.js"></script>
+        
+        <div id="reloj" style="font-size:20px;">
+          <script type="text/javascript">
+         function startTime(){
+         today=new Date();
+         h=today.getHours();
+         m=today.getMinutes();
+         s=today.getSeconds();
+         m=checkTime(m);
+         s=checkTime(s);
+         document.getElementById('reloj').innerHTML=h+":"+m+":"+s;
+         t=setTimeout('startTime()',500);}
+         function checkTime(i)
+         {if (i<10) {i="0" + i;}return i;}
+         window.onload=function(){startTime();}
+         </script>
+         </div>  
+         <div>
+           <script type="text/javascript">
+           //<![CDATA[
+           var  today = new Date();
+           var m = today.getMonth() + 1;
+           var mes = (m < 10) ? '0' + m : m;
+             document.write('Fecha: '+today.getDate(),'/' +mes,'/'+today.getYear());
+           //]]> 
+           </script></div> 
       </footer>
     </div>
   </body>

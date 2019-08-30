@@ -1,4 +1,7 @@
 /*Cabecera*/
+body{
+    background:darkgray
+}
 header{
     background:cadetblue;
     width: 80%;
@@ -49,31 +52,81 @@ a{
     margin: auto;
     align-items: center;
 }
-.flex-xoxhabamba{
+.flex-cochabamba{
     display: flex;
+    width: 100%;
 }
-
+.flex-cochabamba picture img{
+    width: 100%;
+}
+.informacion-clima{
+    position: absolute;
+}
 .flex-cochabamba .informacion-clima{
+    align-self: center;
+    margin-left: 25px;
 }
 
-table{
-    border: none;
+.informacion-clima table{
     background: rgba(21, 68, 220, .4)
 }
-.flex-conoce-cbba{
-    display: flex;
-    background:lightblue;
-    text-align: center;
+
+table tr td{
+    border: 1px solid;
 }
-.flex-conoce-cbba p{
-    text-align: justify;
+.informacion-clima h3{
+    color:bisque;
+    background: rgba(0, 4, 15, 0.596);
+    margin-bottom: 0;
+    margin-top: 0;
 }
 
+.flex-container-conoceCbba{
+    background:lightblue;
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-container-conoceCbba h2{
+    align-self: center;
+    color: darkslateblue;
+    font-size: 25px;
+}
+
+.flex-article{
+    display: flex;
+    justify-content: space-between;
+}
+.flex-article p{
+    margin-top: 0;
+    padding: 15px;
+    text-align: justify;
+}
+.flex-article img{
+    padding: 30px;
+}
 /*Contacto*/
 .contact{
     display: flex;
+    justify-content: center;
     background:lightblue;
-    margin-top: 25px;    
+    width: 80%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.contact a img{
+    padding: 25px;
+}
+
+.contact .datos-contacto{
+    display: flex;
+    flex-direction: column;
+}
+.contact .datos-contacto h6{
+    font-size: 25px;
+    align-self: center;
+    margin-bottom: 10px;
+    margin-top: 25px;
 }
 
 /*Footer*/

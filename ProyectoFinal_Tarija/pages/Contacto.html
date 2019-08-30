@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../css/normalize.css" />
+    <link rel="stylesheet" href="../css/menu.css" />
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/contacto.css">
+</head>
+<body>
+    
+    <header>
+        <div class="nav-container">
+          <div class="nav-checkbox">
+            <a href="../index.html" class="logo">AT</a>
+            <input id="tab-nav" type="checkbox" class="tab-nav" />
+            <label for="tab-nav" class="tab-nav-label">Menu</label>
+            <ul class="tab-content">
+              <li><a href="../index.html">Inicio</a></li>
+              <li><a href="Reservas.html">Reservas</a></li>
+              <li><a class="paginaA" href="Contacto.html">Contacto</a></li>
+              
+              <li><a href="Galeria.html">Galeria</a></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+
+      
+
+
+<main>
+
+  <section class="formulario">
+
+      <form action="../pages/gracias.html" method="GET" align="center">
+          <fieldset>
+              <legend align="center">CONTACTO</legend>
+              <label for="nombreCompleto">nombre completo:</label>
+              <input type="text" id="nombreCompleto" pattern="[A-Az-z].{5,}" required><br>
+              <label for="email">correo:</label>
+              <input type="email" name="email" id="email" placeholder="xxxxx@hotmail.com"><br> 
+              <label for="telefono">Telefono:</label>
+              <input type="tel" id="telefono" placeholder="  ### - ### - ####" required><br>
+              <label for="codigo">Codigo Postal:</label>
+              <input type="number" id="codigo" required><br> 
+              <label for="fecha">Fecha actual:</label>
+              <input type="date" id="fecha"><br>
+  
+              <label for="tipoUser">Tipo de Usuario:</label>
+              <select name="tipoUser" id="tipoUser">
+                  <option value="">seleccione lugar:</option>
+                  <option value="Extranjero">Extranjero:</option>
+                  <option value="Nacional">Nacional:</option>
+              </select><br>
+              <label for="coment">Comentario:</label><br>
+              <textarea name="coment" id="coment" cols="25" rows="6"></textarea><br>
+              <input type="submit" class="btn-3d" id="coment">
+          </fieldset>
+      </form>
+  </section>
+
+</main>
+
+
+      <footer class="footer">
+          <article class="quienes">
+            <h2>QUIÉNES SOMOS</h2>
+            <p>
+              Aventura Tarijeña Tours es una compañía creada en 1973, hoy en día una
+              de las líderes en el mercado local con mucha experiencia en turismo
+              dentro de Bolivia. Aventura tarijeña Tours es un grupo dinámico y
+              dedicado, con diferentes áreas de especialización, comunicación en
+              distintos idiomas y con la meta de ser los mejores en brindar un
+              servicio personalizado. Con el fin de mostrar al mundo la riqueza
+              cultural y geográfica de Bolivia, Aventura Tarijeña ha creado una
+              extensa red de operaciones en el país que brindan acceso a atracciones
+              turísticas en regiones remotas y cercanas.
+            </p>
+          </article>
+          <article class="misionvision">
+            <h2>MISIÓN</h2>
+            <p>
+              Brindar un servicio de turismo de alta calidad dentro de Bolivia a
+              través de una operación eficiente, segura, inclusiva e innovativa,
+              satisfaciendo y superando las expectativas de nuestros clientes.
+            </p>
+            <h2>VISIÓN</h2>
+            <p>Ser líderes de turismo de alta calidad en Bolivia.</p>
+          </article>
+          <article class="contacto">
+            <h2>CONTÁCTENOS</h2>
+            <p>
+              Oficinas La Paz Calle Capitán Ravelo No. 2101 Teléfono (591-2) 244
+              2727 Fax (591-2) 244 3060
+            </p>
+            <p>
+              C. 20 de Calacoto Nº 1383 entre Av. Ballivián y Julio C. Patiño
+              Teléfono (591-2) 2773930 / 277-6107 ofertas@magriturismo.com
+            </p>
+            <p>
+              Oficina Santa Cruz Av. Ejército Nacional No. 248. Edificio Olimpo,
+              planta baja Teléfono (591-3) 334 4559 Fax (591-3) 334-3591
+              promociones@magriturismo.com
+            </p>
+          </article>
+        </footer>
+</body>
+</html>

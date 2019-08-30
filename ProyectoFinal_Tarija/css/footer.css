@@ -1,0 +1,56 @@
+
+.footer {
+    background: radial-gradient(#980a19, #6b0000);
+  display: grid;
+  grid-template: 2fr 2fr / 0.5fr 2fr 2fr 2fr 0.5fr;
+}
+.quienes {
+  background: rgba(255, 255, 255, 0.05);
+  margin: 10px;
+  color: #707070;
+  grid-area: 1 / 2 / span 2 / span 1;
+  padding: 1em;
+}
+.misionvision {
+  background: rgba(255, 255, 255, 0.05);
+  color: #707070;
+  margin: 10px;
+
+  grid-area: 1 / 3 / span 2 / span 1;
+  padding: 1em;
+}
+.contacto {
+  background: rgba(255, 255, 255, 0.05);
+  margin: 10px;
+  color: #707070;
+  grid-area: 1 / 4 / span 2 / span 1;
+  padding: 1em;
+}
+footer h2{
+    color: white;
+}
+
+
+
+@media screen and (max-width: 699px) {
+
+
+    .footer {
+        display: grid;
+    
+        grid-template: 2fr 2fr 2fr / 0.1fr 2fr 0.1fr;
+      }
+      .quienes {
+        grid-area: 1 / 2 / span 1 / span 1;
+    
+        padding: 0em;
+      }
+      .misionvision {
+        grid-area: 2 / 2 / span 1 / span 1;
+        padding: 0em;
+      }
+      .contacto {
+        grid-area: 3 / 2 / span 1 / span 1;
+        padding: 0em;
+      }
+}

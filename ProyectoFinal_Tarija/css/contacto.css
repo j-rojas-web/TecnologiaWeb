@@ -1,0 +1,77 @@
+
+.btn-3d {
+    padding: .375rem .75rem;
+    border-radius: .50rem;
+    background-color: #6D0101;
+    color: #fff;
+    transition: background-color .15s ease-in-out;
+  }
+  
+  .btn-bootstrap:hover, .btn-bootstrap:focus {
+    background-color: rgb(167, 7, 7);
+  }
+  
+  .btn-bootstrap:active {
+    background-color: rgb(197, 13, 13);
+  }
+form{
+   
+    padding: 2em;
+    font:roboto;
+    margin-left: 35%;
+      background: radial-gradient( rgba(250, 20, 43, 0.781),
+    rgba(109, 1, 1, 0.541)
+  );
+    width: 350px;
+}
+form legend{
+
+color: white;
+
+}
+
+label{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 2px;
+    display: inline-block;
+    color: white;
+    width: 160px;
+  }
+input{
+    margin-bottom: 5px;
+    display: inline-block;
+    width: 125px;
+}
+.formulario{
+
+    padding-top: 130px;
+    padding-bottom: 40px;
+    background: url(../img/close-up-corks-glass-36741.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+
+}
+@media screen and (max-width: 1100px) and (min-width: 500px) {
+
+  form{
+
+    margin-left:30%;
+   }
+  .formulario{
+    background-size: 100% 100% ;
+  
+  }
+}
+
+@media screen and (max-width: 699px) {
+
+ form{
+
+  margin-left:10%;
+ }
+.formulario{
+  background-size: auto 100% ;
+
+}
+
+}

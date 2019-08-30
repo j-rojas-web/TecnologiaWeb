@@ -1,8 +1,16 @@
+
+body {
+    background: #f5ecec;
+  }
 /*-------HEADER-------*/
 a{
     cursor: pointer;
 }
 
+.paginaA{
+    text-decoration:  underline white !important; 
+    
+}
 header{
     position: fixed;
     top: 0;
@@ -301,3 +309,5 @@ header{
     background-color: #fff;
     cursor: default;
 }
+
+
